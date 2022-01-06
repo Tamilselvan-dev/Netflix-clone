@@ -360,6 +360,7 @@ transition: 100ms;
         border-radius: 20px;
     }
     .searchbar a {
+        display: block;
         margin-top: 20px;
         border-radius: 20px;
         padding: 13px 4px !important;
