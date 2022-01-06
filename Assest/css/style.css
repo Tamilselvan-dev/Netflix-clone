@@ -276,6 +276,7 @@ section {
     border-radius: 20px;
     cursor: pointer;
     transition: 500ms ease-in-out;
+    color: #000;
 }
 
 .close:hover {
@@ -360,7 +361,7 @@ transition: 100ms;
         border-radius: 20px;
     }
     .searchbar a {
-        display: block;
+        display:block;
         margin-top: 20px;
         border-radius: 20px;
         padding: 13px 4px !important;
@@ -373,6 +374,25 @@ transition: 100ms;
     .right-content-section p {
         font-size: 1rem;
     }
+   .con-success {
+    min-width: 300px;
+    min-height: 200px;
+   }
+   .con-success img{
+       width: 60px;
+   }
+
+   .con-success h2 {
+       font-size: 0.6rem;
+   }
+
+   .con-success p {
+       font-size: 0.5rem;
+   }
+
+   .close {
+       font-size: 0.5rem;
+   }
 }
 
 @media (max-width: 736px) {
